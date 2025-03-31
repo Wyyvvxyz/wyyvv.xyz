@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    padding: 0;
+    color: white;
+    height: 100%;
+    background-color: #7a112f;
+}
+@font-face {
+    font-family: "alagard";
+    src: url("../fonts/alagard.ttf");
+}
+@font-face {
+    font-family: "monocraft";
+    src: url("../fonts/Monocraft.ttf");
+}
+#main_container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+#main_center {
+    width: 900px;
+    height: max-content;
+    margin-top: 50px;
+}
+#main_bar {
+    width: 100%;
+    height: 50px;
+    box-shadow: 1px 1px 15px 0px rgba(0,0,0,0.75) inset;
+    line-height: 50px;
+    position: sticky;
+}
+#main_bar ul > li > a {
+    height: 50px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    display: block;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: "alagard";
+}
+#main_bar > ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+#main_bar > ul > li {
+    float: right;
+}
+#main_content {
+    width: 95%;
+    height: 100%;
+    color: white;
+    font-family: "monocraft";
+    padding-left: 10px;
+}
+#buttons {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 5px;
+}
+#projects {
+    margin-top: 50px;
+}
+.portfolio_card {
+    width: 100%;
+    height: 200px;
+    border-top: 1px solid white;
+    padding-left: 20px;
+}
