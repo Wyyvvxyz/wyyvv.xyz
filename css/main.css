@@ -58,6 +58,9 @@ body {
     font-family: "monocraft";
     padding-left: 10px;
 }
+#main_content > ul > li > a:visited {
+    color: white;
+}
 #buttons {
     display: flex;
     flex-wrap: wrap;
